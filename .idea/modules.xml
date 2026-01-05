@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/melos_app.iml" filepath="$PROJECT_DIR$/app/melos_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/core/melos_core.iml" filepath="$PROJECT_DIR$/packages/core/melos_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/notes/notes_base/melos_notes_base.iml" filepath="$PROJECT_DIR$/packages/notes/notes_base/melos_notes_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/notes/notes_premium/melos_notes_premium.iml" filepath="$PROJECT_DIR$/packages/notes/notes_premium/melos_notes_premium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/notes/notes_pro/melos_notes_pro.iml" filepath="$PROJECT_DIR$/packages/notes/notes_pro/melos_notes_pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/todos/todos_base/melos_todos_base.iml" filepath="$PROJECT_DIR$/packages/todos/todos_base/melos_todos_base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/todos/todos_premium/melos_todos_premium.iml" filepath="$PROJECT_DIR$/packages/todos/todos_premium/melos_todos_premium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/todos/todos_pro/melos_todos_pro.iml" filepath="$PROJECT_DIR$/packages/todos/todos_pro/melos_todos_pro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_banking_loan_monorepo.iml" filepath="$PROJECT_DIR$/melos_banking_loan_monorepo.iml" />
+    </modules>
+  </component>
+</project>

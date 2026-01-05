@@ -1,0 +1,28 @@
+name: app
+description: pro version of pubspec.yaml
+version: 0.0.1-pro
+publish_to: none
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  # path related dependencies
+  notes_pro:
+    path: ../packages/notes/notes_pro
+  # normal dependencies
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.0.8
+  # sdk dependencies
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  # normal dependencies
+  flutter_lints: ^5.0.0
+  # sdk dependencies
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true

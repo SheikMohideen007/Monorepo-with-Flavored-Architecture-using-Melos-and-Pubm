@@ -1,0 +1,34 @@
+description: pro version of pubspec.yaml
+version: 0.0.1-pro
+
+dependencies:
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.0.8
+  notes_pro:
+    path: ../packages/notes/notes_pro
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+
+flutter:
+  fonts:
+    - family: font1
+      fonts:
+        - asset: dev/font1/700.ttf
+          weight: 700
+        - asset: dev/font1/600.ttf
+          weight: 600
+        - asset: dev/font1/500.ttf
+          weight: 500
+        - asset: dev/font1/400.ttf
+          weight: 400
+    - family: font2
+      fonts:
+        - asset: dev/font2/700.ttf
+          weight: 700
+        - asset: dev/font2/600.ttf
+          weight: 600
+        - asset: dev/font2/500.ttf
+          weight: 500
+        - asset: dev/font2/400.ttf
+          weight: 400

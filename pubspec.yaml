@@ -1,0 +1,9 @@
+name: banking_loan_monorepo
+description: Workspace root
+environment:
+  sdk: ^3.9.2
+
+dev_dependencies:
+  melos: ^6.1.0
+dependencies:
+  image_picker: ^1.2.1
