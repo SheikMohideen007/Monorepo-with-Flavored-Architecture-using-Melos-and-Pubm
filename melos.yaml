@@ -24,3 +24,9 @@ scripts:
   clean:
     run: melos clean
     description: Clean workspace
+
+  build:notespro:
+    run: |
+      melos exec --dir-exists=app -- cd app && pubm -f pro && flutter pub get
+      melos exec --dir-exists=app -- cd app && flutter build apk --release --flavor notespro -t lib/notes/main_pro.dart
+    description: Build notespro APK (integrates pubm)

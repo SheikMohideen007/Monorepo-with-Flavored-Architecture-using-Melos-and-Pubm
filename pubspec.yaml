@@ -5,5 +5,3 @@ environment:
 
 dev_dependencies:
   melos: ^6.1.0
-dependencies:
-  image_picker: ^1.2.1

@@ -1,20 +1,27 @@
 name: app
-description: base version of pubspec.yaml version
-version: 0.0.1-base
+description: pro version of pubspec.yaml
+version: 0.0.1-pro
 publish_to: none
 
 environment:
   sdk: ^3.9.2
 
 dependencies:
-  cupertino_icons: ^1.0.8
-  flutter:
-    sdk: flutter
+  # path related dependencies
   notes_base:
     path: ../packages/notes/notes_base
+  notes_pro:
+    path: ../packages/notes/notes_pro
+  # normal dependencies
+  cupertino_icons: ^1.0.8
+  image_picker: ^1.0.8
   yaml: ^3.1.3
+  # sdk dependencies
+  flutter:
+    sdk: flutter
 
 dev_dependencies:
+  # normal dependencies
   flutter_lints: ^5.0.0
   # sdk dependencies
   flutter_test:
